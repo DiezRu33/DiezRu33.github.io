@@ -3,7 +3,21 @@
 	padding: 5px;
 }
 body {
-
 	text-align: center;
 	font-family: Sans Seriff;
+	background-color: #444;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	border: 1px solid red;
+	margin: 0, auto;
+	padding: 1em;
+}
+
+.post {
+	border: 2px solid #000;
+	margin: 0, auto;
+	padding: 2em;
 }
