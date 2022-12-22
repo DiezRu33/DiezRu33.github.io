@@ -6,3 +6,5 @@ aguante chicago bulls
 
 aguante el helado de crema y el chocolate
 
+git log --stat
+
