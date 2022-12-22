@@ -6,13 +6,19 @@
 body {
 	text-align: center;
 	font-family: Sans Seriff;
-	background-color: #888;
+	background-color: rgb(74, 224, 51);
 	margin: 0;
 	padding: 0;
+	transition: 1s all;
+}
+body:hover{
+	background: #18e;
+	transition: .5s all;
+	font-weight: bolder;
 }
 
 .container {
-	border: 1px solid red;
+	border: 1px solid rgb(14, 49, 165);
 	margin: 0, auto;
 	padding: 1em;
 }
@@ -31,5 +37,10 @@ body {
 	text-align: center;
 	font-size: 18px;
 	font-weight: bolder;
-
+	transition: 2s all;
+}
+.cabecera:hover{
+	background:#000;
+	color:#fff;
+	transition: .2s all;
 }
