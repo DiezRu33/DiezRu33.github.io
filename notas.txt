@@ -1,1 +1,2 @@
 alias arbolito="git log --decorate --graph --oneline --all" | give an alias
+git tag -a "" -m log;
