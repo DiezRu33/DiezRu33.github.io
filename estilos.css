@@ -60,3 +60,28 @@ p {
 	/* position: fixed; */
 
 }
+
+#parrafo {
+	color: #000;
+	transition: 1s all
+}
+#parrafo:hover {
+	color: #fff;
+	transition: .2s all;
+}
+#_parrafo {
+	color: #000;
+	transition: 1s all
+}
+#_parrafo:hover {
+	color: #fff;
+	transition: .2s all;
+}
+#__parrafo {
+	color: #000;
+	transition: 1s all
+}
+#__parrafo:hover {
+	color: #fff;
+	transition: .2s all;
+}
