@@ -9,17 +9,25 @@ const boton3 = document.getElementById("button3");
 // function e(){
 //     alert("Hola")
 // }
-function mnsj(){
-    alert("Hola")
+function msj(){
+    window.open("https://google.com", "__blank")
+}
+
+function msj_github(){
+    window.open("https://github.com/repositories", "__blank")
+}
+
+function msj_mdn(){
+    window.open("https://developer.mozilla.org", "__blank")
 }
 boton.addEventListener("click", (a) => {
-    mnsj(boton)
+    msj(boton)
 })
 boton2.addEventListener("click", (b) => {
-    mnsj(boton2)
+    msj_github(boton2)
 })
 boton3.addEventListener("click", (c) => {
-    mnsj(boton3)
+    msj_mdn(boton3)
 })
 
 
