@@ -6,10 +6,12 @@
 body {
 	text-align: left;
 	font-family: Sans Seriff;
-	background-color: rgb(74, 224, 51);
+	background-color: rgb(104, 159, 223);
 	margin: 0;
 	padding: 0;
 	transition: 1s all;
+	font-size: 25px;
+	border: 2px solid #18e;
 }
 body:hover{
 	background: #522;
@@ -22,9 +24,12 @@ body:hover{
 	margin: 0, auto;
 	padding: 1em;
 }
+.container:hover{
+	color:#fff;
+}
 
 .post {
-	border: 2px solid #000;
+	/* border: 2px solid #000; */
 	margin: 0, auto;
 	padding: 2em;
 }
@@ -40,7 +45,18 @@ body:hover{
 	transition: 2s all;
 }
 .cabecera:hover{
-	background:#000;
+	/* background:#000; */
 	color:#fff;
 	transition: .2s all;
+}
+
+p {
+	background: linear-gradient(to left rgb(226, 141, 21), rgb(232, 138, 30), rgb(187, 117, 43));
+	color: #000;
+	font-size: 20px;
+	padding: 5px 0 15px 0;
+	border: 1px dashed #183;
+	display: flex;
+	/* position: fixed; */
+
 }
