@@ -12,5 +12,7 @@ git show | last change
 ssh-keygen -t rsa -b 4096 -C "diegoruffa@hotmail.com" | create SSH keygen
 - save on file .ssh/id_rsa.pub;
 
-eval $(ssh-agent -s) | validate ssh-agent 
+eval $(ssh-agent -s) | validate ssh-agent;
+
+.
 
