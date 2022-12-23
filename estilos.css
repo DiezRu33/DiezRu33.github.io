@@ -1,6 +1,6 @@
 *{
 	margin: 0;
-	padding: 5px;
+	
 	font-family: Courier;
 }
 body {
@@ -18,10 +18,35 @@ body:hover{
 	font-weight: bolder;
 }
 
+.titulo {
+	/* display: flex; */
+	/* width: 100%; */
+	margin: 0 0 15px 0 ;
+	padding-top: 10px;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	height: 50px;
+	transition: 2s all;
+}
+
+.titulo:hover {
+	/* display: flex; */
+	/* width: 100%; */
+	margin: 0 0 20px 0;
+	padding-top: 10px;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	height: 60px;
+	transition: .5s all;
+}
+
 .container {
 	border: 1px solid rgb(14, 49, 165);
 	margin: 0, auto;
 	padding: 1em;
+	padding: 5px;
 }
 
 .post {
