@@ -9,3 +9,4 @@ aguante el helado de crema y el chocolate
 git log --stat | see all the changes
 git show | last change
 
+ssh-keygen -t rsa -b 4096 -C "diegoruffa@hotmail.com" | generate ew SSH-key;
