@@ -6,13 +6,14 @@
 body {
 	text-align: center;
 	font-family: Sans Seriff;
-	background-color: rgb(74, 224, 51);
+	background-color: rgb(135, 172, 129);
 	margin: 0;
 	padding: 0;
 	transition: 1s all;
 }
 body:hover{
-	background: #522;
+	background: linear-gradient(to left, rgba(90, 116, 188, .5), rgba(16, 93, 201,.5), rgba(36, 80, 174,.4));
+
 	transition: .5s all;
 	font-weight: bolder;
 }

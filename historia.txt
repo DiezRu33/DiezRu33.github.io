@@ -14,5 +14,13 @@ ssh-keygen -t rsa -b 4096 -C "diegoruffa@hotmail.com" | create SSH keygen
 
 eval $(ssh-agent -s) | validate ssh-agent;
 
-.
-
+.git show --stat
+git log --list
+git status
+git clone
+git diff
+git merge
+git branch
+git checkout
+git add
+git commit -em "";
