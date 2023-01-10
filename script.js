@@ -29,6 +29,7 @@ boton2.addEventListener("click", (b) => {
 boton3.addEventListener("click", (c) => {
     msj_mdn(boton3)
 })
+<<<<<<< HEAD
 boton.addEventListener("click", (a) => {
     msj(boton)
 })
@@ -98,3 +99,5 @@ boton3.addEventListener("click", (c) => {
     
 // })
 
+=======
+>>>>>>> c2e7a2d (adding JS)
