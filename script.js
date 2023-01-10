@@ -9,6 +9,7 @@ const boton3 = document.getElementById("button3");
 // function e(){
 //     alert("Hola")
 // }
+<<<<<<< HEAD
 function msj(){
     window.open("https://google.com", "__blank")
 }
@@ -28,6 +29,19 @@ boton2.addEventListener("click", (b) => {
 })
 boton3.addEventListener("click", (c) => {
     msj_mdn(boton3)
+=======
+function mnsj(){
+    alert("Hola")
+}
+boton.addEventListener("click", (a) => {
+    mnsj(boton)
+})
+boton2.addEventListener("click", (b) => {
+    mnsj(boton2)
+})
+boton3.addEventListener("click", (c) => {
+    mnsj(boton3)
+>>>>>>> f86157d (adding details to p's)
 })
 
 
