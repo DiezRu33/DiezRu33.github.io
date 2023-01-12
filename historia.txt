@@ -6,6 +6,11 @@ Experimento1
 git log --stat | see all the changes
 git show | last change
 git reflog
+git grep la
+git config --global alias. 
+git blame <fil> -L0,10
+
+
 
 ssh-keygen -t rsa -b 4096 -C "diegoruffa@hotmail.com" | generate ew SSH-key;
 git remote set-url origin git@github.com:DiezRu33/Hyperblog-2.git | change url name
